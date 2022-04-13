@@ -84,6 +84,15 @@ void main() {
   print("--------------");
   nilai >= 80 ? print("A"):print("Tidak A");
 
+  //final keyword => imutbale/tidak bisa di rubah
+  //const final
+  //const 
+  // final
+  // const String mahasiswa = "beben";
+    final String mahasiswafk;
+  mahasiswafk = "beben";
+  
+  print(mahasiswafk);
 
   //Function
   print("Function");
