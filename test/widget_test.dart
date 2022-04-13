@@ -94,6 +94,18 @@ void main() {
   
   print(mahasiswafk);
 
+  //null  safety
+  // ?! late
+  // ? digunakan dia boleh null
+  //String? jurusan;
+  // untuk diisi nanti
+  late String jurusan;
+  
+  jurusanns = "Teknik Informatika";
+  //jurusanns = "TI";
+  // memaksa untuk dijalankan / yakin ada datanya
+  print(jurusanns!.length);
+
   //Function
   print("Function");
   hitungNilai();
