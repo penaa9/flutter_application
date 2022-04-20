@@ -229,3 +229,16 @@ void main() {
   print(s1.kecepatanMaksimal);
   print(s1.merk);
 }
+
+
+import "dart:io";
+
+
+Future<void> main() async {
+  for(int i = 1; i <= 5; i++){
+    for(int j = 1; j <= i; j++){
+      stdout.write("*");
+    }
+    stdout.write("\n");
+  }
+}
